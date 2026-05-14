@@ -1,0 +1,97 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #0066ff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #004ecc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .btn {
+      background: #0066ff;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .btn:hover {
+      background: #0052cc;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Meu Primeiro Site</h1>
+    <p>Site criado em HTML + CSS</p>
+  </header>
+
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Sobre</a>
+    <a href="#">Contato</a>
+  </nav>
+
+  <div class="container">
+    <h2>Bem-vindo!</h2>
+    <p>Este é um exemplo simples de página web.</p>
+
+    <button class="btn" onclick="mostrarMensagem()">
+      Clique Aqui
+    </button>
+  </div>
+
+  <footer>
+    © 2026 Meu Site - Todos os direitos reservados
+  </footer>
+
+  <script>
+    function mostrarMensagem() {
+      alert("Olá! Você clicou no botão.");
+    }
+  </script>
+
+</body>
+</html>
